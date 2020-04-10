@@ -30,8 +30,8 @@ jobs:
     - name: Upload Built Artifact
       uses: actions/upload-artifact@master
       with:
-        name: webpack artifacts
-        path: public
+        name: built artifacts
+        path: public/
       
   cd:
     needs: ci
@@ -43,7 +43,7 @@ jobs:
     - name: Download Built Artifact
       uses: actions/download-artifact@master
       with:
-        name: webpack artifacts
+        name: built artifacts
         path: public
 
     - name: Configure AWS Credentials
