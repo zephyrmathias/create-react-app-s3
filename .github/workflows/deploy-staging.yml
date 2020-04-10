@@ -26,6 +26,12 @@ jobs:
 
     - name: Run Test
       run: npm test
+
+    - name: Upload Built Artifact
+    - uses: actions/upload-artifact@master
+      with:
+        name: webpack artifacts
+        path: public
       
   cd:
     needs: ci
@@ -33,11 +39,12 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-
-    - name: Use Node.js 12.x
-      uses: actions/setup-node@v1
+    
+    - name: Download Built Artifact
+      uses: actions/download-artifact@master
       with:
-        node-version: 12.x
+        name: webpack artifacts
+        path: public
 
     - name: Configure AWS Credentials
       uses: aws-actions/configure-aws-credentials@v1
