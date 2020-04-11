@@ -1,3 +1,9 @@
+## GitHub Actions
+- Manual Deploy to Staging Environment by Adding "Staging" Label to Pull Request
+- Deploy to Staging Environment with Webhook (dispatches)
+- Semantic Release (Deploy to Production)
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
