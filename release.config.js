@@ -16,8 +16,6 @@ module.exports = {
       {
         "assets": [
           "docs/CHANGELOG.md",
-          "package.json",
-          "package-lock.json"
         ],
         "message": "chore(release): ${nextRelease.version}\n${nextRelease.notes}"
       }
