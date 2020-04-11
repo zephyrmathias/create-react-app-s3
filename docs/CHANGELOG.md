@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/zephyrmathias/create-react-app-s3/compare/v1.0.4...v1.0.5) (2020-04-11)
+
+
+### Bug Fixes
+
+* **semantic:** test semantic minor workflow ([cbe43c4](https://github.com/zephyrmathias/create-react-app-s3/commit/cbe43c404a47aabc05aac2d5248f951ed50f3c72))
+
 ## [1.0.4](https://github.com/zephyrmathias/create-react-app-s3/compare/v1.0.3...v1.0.4) (2020-04-11)
 
 
