@@ -11,6 +11,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+      with:
+        ref: ${{ github.event.client_payload.branch }}
 
     - name: Use Node.js 12.x
       uses: actions/setup-node@v1
@@ -37,8 +39,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
-    
     - name: Download Built Artifact
       uses: actions/download-artifact@master
       with:
