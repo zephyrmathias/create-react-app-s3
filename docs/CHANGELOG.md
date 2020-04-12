@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/zephyrmathias/create-react-app-s3/compare/v1.2.0...v1.3.0) (2020-04-12)
+
+
+### Features
+
+* **squash:** test squash merge on semantic ([e225159](https://github.com/zephyrmathias/create-react-app-s3/commit/e225159895668cad383626539b4a125ceb57bd89))
+
 # [1.2.0](https://github.com/zephyrmathias/create-react-app-s3/compare/v1.1.0...v1.2.0) (2020-04-12)
 
 
