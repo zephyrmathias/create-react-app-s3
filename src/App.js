@@ -16,7 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Test Semantic Release
+          Test CI/CD
         </a>
       </header>
     </div>
