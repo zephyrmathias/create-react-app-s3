@@ -1,19 +1,18 @@
 # Release Pipeline (CD)
-name: Push
+name: Create Semantic Release
 
 on:
-  push:
-    branches:
-      - master
+  repository_dispatch:
+    types: release
 
 jobs:
-  push:
+  semantic-release:
     runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@v2
 
-    - name: Add Semantic Release (Prerelease)
+    - name: Add Semantic Release
       uses: cycjimmy/semantic-release-action@v2
       with:
         branch: master
