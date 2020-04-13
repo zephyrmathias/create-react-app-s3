@@ -16,14 +16,8 @@ jobs:
     - name: Add Semantic Release (Prerelease)
       uses: cycjimmy/semantic-release-action@v2
       with:
-        semantic_version: 16
-        branches: |    
-          [
-            {
-              name: 'master', 
-              prerelease: true
-            }, 
-          ]
+        branch: master
+        dry_run: true
         extra_plugins: |
           @semantic-release/git
           @semantic-release/changelog
