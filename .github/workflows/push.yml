@@ -1,5 +1,5 @@
 # Release Pipeline (CD) - Deploy to staging
-name: Release
+name: Push
 
 on:
   push:
