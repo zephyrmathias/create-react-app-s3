@@ -1,3 +1,12 @@
+# [1.4.0](https://github.com/zephyrmathias/create-react-app-s3/compare/v1.3.0...v1.4.0) (2020-04-13)
+
+
+### Features
+
+* **cicd:** test ci/cd ([57cf260](https://github.com/zephyrmathias/create-react-app-s3/commit/57cf260ffa7dddb4d673ca730d1b63f40b6e2fe9))
+* **semantic:** remove dry_run (test) ([752af9f](https://github.com/zephyrmathias/create-react-app-s3/commit/752af9fc0feb0c68625e0c7544e56b27741bff6a))
+* **test:** dry_run ([21ac06e](https://github.com/zephyrmathias/create-react-app-s3/commit/21ac06e5cd243a61ed9fd0a6e6856b83d109510d))
+
 # [1.3.0](https://github.com/zephyrmathias/create-react-app-s3/compare/v1.2.0...v1.3.0) (2020-04-12)
 
 
