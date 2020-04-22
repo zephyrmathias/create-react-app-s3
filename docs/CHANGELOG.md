@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/zephyrmathias/create-react-app-s3/compare/v1.5.0...v1.6.0) (2020-04-22)
+
+
+### Features
+
+* **deploy:** test semantic releases ([#12](https://github.com/zephyrmathias/create-react-app-s3/issues/12)) ([7cef585](https://github.com/zephyrmathias/create-react-app-s3/commit/7cef5855df37d2444e999488efe434589f971aee))
+
 # [1.5.0](https://github.com/zephyrmathias/create-react-app-s3/compare/v1.4.0...v1.5.0) (2020-04-13)
 
 
