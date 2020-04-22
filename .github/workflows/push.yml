@@ -26,6 +26,7 @@ jobs:
 
     - name: Add Semantic Release
       uses: cycjimmy/semantic-release-action@v2
+      id: semantic
       with:
         branch: master
         extra_plugins: |
