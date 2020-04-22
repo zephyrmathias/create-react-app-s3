@@ -1,3 +1,10 @@
+## [1.7.1](https://github.com/zephyrmathias/create-react-app-s3/compare/v1.7.0...v1.7.1) (2020-04-22)
+
+
+### Bug Fixes
+
+* **action:** test output ([b810bfb](https://github.com/zephyrmathias/create-react-app-s3/commit/b810bfbd61f6dd90616e838882f966fd8a5d8e03))
+
 # [1.7.0](https://github.com/zephyrmathias/create-react-app-s3/compare/v1.6.0...v1.7.0) (2020-04-22)
 
 
