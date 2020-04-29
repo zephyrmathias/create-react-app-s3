@@ -1,6 +1,6 @@
 {
   "name": "create-react-app-s3",
-  "version": "1.7.2",
+  "version": "1.7.3",
   "private": true,
   "dependencies": {
     "cra-template": "1.0.3",
