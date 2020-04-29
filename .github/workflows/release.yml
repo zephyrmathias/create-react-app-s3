@@ -56,6 +56,4 @@ jobs:
 
     - name: Deploy to Production
       run: aws s3 cp --recursive ./build/ s3://create-react-app-s3
-    
-    - name: Test GIT_TAG
-      run: echo ${{ env.GIT_TAG }}
+
