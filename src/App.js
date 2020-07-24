@@ -16,7 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Test DEPLOYMENT
+          Test Staging Hook
         </a>
       </header>
     </div>
